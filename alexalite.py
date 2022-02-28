@@ -86,7 +86,7 @@ def run_rani():
         talk("One")
         pywhatkit.take_screenshot(str(filename), 0)
     elif 'send message' in command:
-        pywhatkit.sendwhatmsg("+91 79800 49070", 'Hello from pankaj', 18, 17)
+        pywhatkit.sendwhatmsg("+91 79******70", 'Hello from pankaj', 18, 17)
         talk("Successfully Sent! ")
     else:
         talk('please say the command again.')
